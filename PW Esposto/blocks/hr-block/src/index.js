@@ -131,9 +131,6 @@ registerBlockType(name, {
 
     return (
       <>
-        <style>
-          {`#${props.attributes.blockId} { width: ${props.attributes.width}%; height: ${props.attributes.height}px; }`}
-        </style>
         <hr {...blockProps} />
       </>
     );
